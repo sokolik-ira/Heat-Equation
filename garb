@@ -1,0 +1,2 @@
+    template<typename J=I>
+    typename std::enable_if<std::is_same<J,int>::value, void>::type
